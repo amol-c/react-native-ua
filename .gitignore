@@ -9,3 +9,6 @@ ios/AirshipConfig.plist
 
 android/.gradle
 local.properties
+
+ios/Libraries/Airship/*
+ios/Pods/*

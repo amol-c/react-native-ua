@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		51AC194D1CE4ACED00EF7E09 /* ReactNativeUAIOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51AC194C1CE4ACED00EF7E09 /* ReactNativeUAIOS.h */; };
 		51AC194F1CE4ACED00EF7E09 /* ReactNativeUAIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AC194E1CE4ACED00EF7E09 /* ReactNativeUAIOS.m */; };
-		938B32AA1D9C4DE70078C3D6 /* AirshipResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 938B32431D9C4DE70078C3D6 /* AirshipResources.bundle */; };
-		938B32AB1D9C4DE70078C3D6 /* libUAirship-8.0.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938B32A01D9C4DE70078C3D6 /* libUAirship-8.0.1.a */; };
+		7977588803A7AE0A833C56BF /* libPods-ReactNativeUAIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6757546149A064B020237 /* libPods-ReactNativeUAIOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -135,104 +134,9 @@
 		51AC1CB61CE4C41100EF7E09 /* RCTWrapperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTWrapperViewController.h; sourceTree = "<group>"; };
 		51AC1CB71CE4C41100EF7E09 /* UIView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Private.h"; sourceTree = "<group>"; };
 		51AC1CB81CE4C41100EF7E09 /* UIView+React.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+React.h"; sourceTree = "<group>"; };
-		938B32421D9C4DE70078C3D6 /* AirshipLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirshipLib.h; sourceTree = "<group>"; };
-		938B32431D9C4DE70078C3D6 /* AirshipResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AirshipResources.bundle; sourceTree = "<group>"; };
-		938B32461D9C4DE70078C3D6 /* UANativeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANativeBridge.h; sourceTree = "<group>"; };
-		938B32481D9C4DE70078C3D6 /* UALandingPageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALandingPageAction.h; sourceTree = "<group>"; };
-		938B32491D9C4DE70078C3D6 /* NSJSONSerialization+UAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+UAAdditions.h"; sourceTree = "<group>"; };
-		938B324A1D9C4DE70078C3D6 /* NSString+UALocalizationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UALocalizationAdditions.h"; sourceTree = "<group>"; };
-		938B324B1D9C4DE70078C3D6 /* NSString+UAURLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UAURLEncoding.h"; sourceTree = "<group>"; };
-		938B324C1D9C4DE70078C3D6 /* UAAccountEventTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAccountEventTemplate.h; sourceTree = "<group>"; };
-		938B324D1D9C4DE70078C3D6 /* UAAction+Operators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UAAction+Operators.h"; sourceTree = "<group>"; };
-		938B324E1D9C4DE70078C3D6 /* UAAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAction.h; sourceTree = "<group>"; };
-		938B324F1D9C4DE70078C3D6 /* UAActionArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionArguments.h; sourceTree = "<group>"; };
-		938B32501D9C4DE70078C3D6 /* UAActionJSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionJSDelegate.h; sourceTree = "<group>"; };
-		938B32511D9C4DE70078C3D6 /* UAActionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionRegistry.h; sourceTree = "<group>"; };
-		938B32521D9C4DE70078C3D6 /* UAActionRegistryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionRegistryEntry.h; sourceTree = "<group>"; };
-		938B32531D9C4DE70078C3D6 /* UAActionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionResult.h; sourceTree = "<group>"; };
-		938B32541D9C4DE70078C3D6 /* UAActionRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionRunner.h; sourceTree = "<group>"; };
-		938B32551D9C4DE70078C3D6 /* UAActionSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionSchedule.h; sourceTree = "<group>"; };
-		938B32561D9C4DE70078C3D6 /* UAActionScheduleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionScheduleInfo.h; sourceTree = "<group>"; };
-		938B32571D9C4DE70078C3D6 /* UAActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActivityViewController.h; sourceTree = "<group>"; };
-		938B32581D9C4DE70078C3D6 /* UAAddCustomEventAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAddCustomEventAction.h; sourceTree = "<group>"; };
-		938B32591D9C4DE70078C3D6 /* UAAddTagsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAddTagsAction.h; sourceTree = "<group>"; };
-		938B325A1D9C4DE70078C3D6 /* UAAggregateActionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAggregateActionResult.h; sourceTree = "<group>"; };
-		938B325B1D9C4DE70078C3D6 /* UAAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAnalytics.h; sourceTree = "<group>"; };
-		938B325C1D9C4DE70078C3D6 /* UAAppIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAppIntegration.h; sourceTree = "<group>"; };
-		938B325D1D9C4DE70078C3D6 /* UAApplicationMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAApplicationMetrics.h; sourceTree = "<group>"; };
-		938B325E1D9C4DE70078C3D6 /* UAAssociatedIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAssociatedIdentifiers.h; sourceTree = "<group>"; };
-		938B325F1D9C4DE70078C3D6 /* UAAutomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAutomation.h; sourceTree = "<group>"; };
-		938B32601D9C4DE70078C3D6 /* UABespokeCloseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UABespokeCloseView.h; sourceTree = "<group>"; };
-		938B32611D9C4DE70078C3D6 /* UABeveledLoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UABeveledLoadingIndicator.h; sourceTree = "<group>"; };
-		938B32621D9C4DE70078C3D6 /* UACancelSchedulesAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UACancelSchedulesAction.h; sourceTree = "<group>"; };
-		938B32631D9C4DE70078C3D6 /* UAChannelCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAChannelCapture.h; sourceTree = "<group>"; };
-		938B32641D9C4DE70078C3D6 /* UACircularRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UACircularRegion.h; sourceTree = "<group>"; };
-		938B32651D9C4DE70078C3D6 /* UAConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAConfig.h; sourceTree = "<group>"; };
-		938B32661D9C4DE70078C3D6 /* UACustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UACustomEvent.h; sourceTree = "<group>"; };
-		938B32671D9C4DE70078C3D6 /* UADefaultMessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADefaultMessageCenter.h; sourceTree = "<group>"; };
-		938B32681D9C4DE70078C3D6 /* UADefaultMessageCenterListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADefaultMessageCenterListCell.h; sourceTree = "<group>"; };
-		938B32691D9C4DE70078C3D6 /* UADefaultMessageCenterListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADefaultMessageCenterListViewController.h; sourceTree = "<group>"; };
-		938B326A1D9C4DE70078C3D6 /* UADefaultMessageCenterMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADefaultMessageCenterMessageViewController.h; sourceTree = "<group>"; };
-		938B326B1D9C4DE70078C3D6 /* UADefaultMessageCenterSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADefaultMessageCenterSplitViewController.h; sourceTree = "<group>"; };
-		938B326C1D9C4DE70078C3D6 /* UADefaultMessageCenterStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADefaultMessageCenterStyle.h; sourceTree = "<group>"; };
-		938B326D1D9C4DE70078C3D6 /* UADisplayInboxAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADisplayInboxAction.h; sourceTree = "<group>"; };
-		938B326E1D9C4DE70078C3D6 /* UADisposable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADisposable.h; sourceTree = "<group>"; };
-		938B326F1D9C4DE70078C3D6 /* UAEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAEvent.h; sourceTree = "<group>"; };
-		938B32701D9C4DE70078C3D6 /* UAGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGlobal.h; sourceTree = "<group>"; };
-		938B32711D9C4DE70078C3D6 /* UAInAppMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInAppMessage.h; sourceTree = "<group>"; };
-		938B32721D9C4DE70078C3D6 /* UAInAppMessageButtonActionBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInAppMessageButtonActionBinding.h; sourceTree = "<group>"; };
-		938B32731D9C4DE70078C3D6 /* UAInAppMessageControllerDefaultDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInAppMessageControllerDefaultDelegate.h; sourceTree = "<group>"; };
-		938B32741D9C4DE70078C3D6 /* UAInAppMessageControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInAppMessageControllerDelegate.h; sourceTree = "<group>"; };
-		938B32751D9C4DE70078C3D6 /* UAInAppMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInAppMessageView.h; sourceTree = "<group>"; };
-		938B32761D9C4DE70078C3D6 /* UAInAppMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInAppMessaging.h; sourceTree = "<group>"; };
-		938B32771D9C4DE70078C3D6 /* UAIncomingInAppMessageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAIncomingInAppMessageAction.h; sourceTree = "<group>"; };
-		938B32781D9C4DE70078C3D6 /* UAInstallAttributionEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInstallAttributionEvent.h; sourceTree = "<group>"; };
-		938B32791D9C4DE70078C3D6 /* UAirship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAirship.h; sourceTree = "<group>"; };
-		938B327A1D9C4DE70078C3D6 /* UAJavaScriptDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAJavaScriptDelegate.h; sourceTree = "<group>"; };
-		938B327B1D9C4DE70078C3D6 /* UAJSONMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAJSONMatcher.h; sourceTree = "<group>"; };
-		938B327C1D9C4DE70078C3D6 /* UAJSONPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAJSONPredicate.h; sourceTree = "<group>"; };
-		938B327D1D9C4DE70078C3D6 /* UAJSONValueMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAJSONValueMatcher.h; sourceTree = "<group>"; };
-		938B327E1D9C4DE70078C3D6 /* UALandingPageOverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALandingPageOverlayController.h; sourceTree = "<group>"; };
-		938B327F1D9C4DE70078C3D6 /* UALocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALocation.h; sourceTree = "<group>"; };
-		938B32801D9C4DE70078C3D6 /* UALocationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALocationEvent.h; sourceTree = "<group>"; };
-		938B32811D9C4DE70078C3D6 /* UAMediaEventTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAMediaEventTemplate.h; sourceTree = "<group>"; };
-		938B32821D9C4DE70078C3D6 /* UAMessageCenterDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAMessageCenterDateUtils.h; sourceTree = "<group>"; };
-		938B32831D9C4DE70078C3D6 /* UAMessageCenterLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAMessageCenterLocalization.h; sourceTree = "<group>"; };
-		938B32841D9C4DE70078C3D6 /* UAModifyTagsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAModifyTagsAction.h; sourceTree = "<group>"; };
-		938B32851D9C4DE70078C3D6 /* UAOpenExternalURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAOpenExternalURLAction.h; sourceTree = "<group>"; };
-		938B32861D9C4DE70078C3D6 /* UAOverlayInboxMessageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAOverlayInboxMessageAction.h; sourceTree = "<group>"; };
-		938B32871D9C4DE70078C3D6 /* UAPasteboardAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPasteboardAction.h; sourceTree = "<group>"; };
-		938B32881D9C4DE70078C3D6 /* UAProximityRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAProximityRegion.h; sourceTree = "<group>"; };
-		938B32891D9C4DE70078C3D6 /* UARegionEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARegionEvent.h; sourceTree = "<group>"; };
-		938B328A1D9C4DE70078C3D6 /* UARemoveTagsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARemoveTagsAction.h; sourceTree = "<group>"; };
-		938B328B1D9C4DE70078C3D6 /* UARetailEventTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARetailEventTemplate.h; sourceTree = "<group>"; };
-		938B328C1D9C4DE70078C3D6 /* UARichContentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARichContentWindow.h; sourceTree = "<group>"; };
-		938B328D1D9C4DE70078C3D6 /* UAScheduleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAScheduleAction.h; sourceTree = "<group>"; };
-		938B328E1D9C4DE70078C3D6 /* UAScheduleTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAScheduleTrigger.h; sourceTree = "<group>"; };
-		938B328F1D9C4DE70078C3D6 /* UAShareAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAShareAction.h; sourceTree = "<group>"; };
-		938B32901D9C4DE70078C3D6 /* UATagUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UATagUtils.h; sourceTree = "<group>"; };
-		938B32911D9C4DE70078C3D6 /* UAURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAURLProtocol.h; sourceTree = "<group>"; };
-		938B32921D9C4DE70078C3D6 /* UAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAUser.h; sourceTree = "<group>"; };
-		938B32931D9C4DE70078C3D6 /* UAUserAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAUserAPIClient.h; sourceTree = "<group>"; };
-		938B32941D9C4DE70078C3D6 /* UAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAUtils.h; sourceTree = "<group>"; };
-		938B32951D9C4DE70078C3D6 /* UAWebViewCallData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAWebViewCallData.h; sourceTree = "<group>"; };
-		938B32961D9C4DE70078C3D6 /* UAWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAWebViewDelegate.h; sourceTree = "<group>"; };
-		938B32971D9C4DE70078C3D6 /* UAWhitelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAWhitelist.h; sourceTree = "<group>"; };
-		938B32981D9C4DE70078C3D6 /* UIWebView+UAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UAAdditions.h"; sourceTree = "<group>"; };
-		938B329A1D9C4DE70078C3D6 /* UA_Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UA_Base64.h; sourceTree = "<group>"; };
-		938B329C1D9C4DE70078C3D6 /* UAInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInbox.h; sourceTree = "<group>"; };
-		938B329D1D9C4DE70078C3D6 /* UAInboxMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessage.h; sourceTree = "<group>"; };
-		938B329E1D9C4DE70078C3D6 /* UAInboxMessageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessageList.h; sourceTree = "<group>"; };
-		938B329F1D9C4DE70078C3D6 /* UAInboxUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxUtils.h; sourceTree = "<group>"; };
-		938B32A01D9C4DE70078C3D6 /* libUAirship-8.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libUAirship-8.0.1.a"; sourceTree = "<group>"; };
-		938B32A21D9C4DE70078C3D6 /* UAChannelRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAChannelRegistrar.h; sourceTree = "<group>"; };
-		938B32A31D9C4DE70078C3D6 /* UANamedUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANamedUser.h; sourceTree = "<group>"; };
-		938B32A41D9C4DE70078C3D6 /* UANotificationAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANotificationAction.h; sourceTree = "<group>"; };
-		938B32A51D9C4DE70078C3D6 /* UANotificationCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANotificationCategories.h; sourceTree = "<group>"; };
-		938B32A61D9C4DE70078C3D6 /* UANotificationCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANotificationCategory.h; sourceTree = "<group>"; };
-		938B32A71D9C4DE70078C3D6 /* UANotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANotificationContent.h; sourceTree = "<group>"; };
-		938B32A81D9C4DE70078C3D6 /* UANotificationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANotificationResponse.h; sourceTree = "<group>"; };
-		938B32A91D9C4DE70078C3D6 /* UAPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPush.h; sourceTree = "<group>"; };
+		53B01660C7506B1FE203FCF1 /* Pods-ReactNativeUAIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeUAIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeUAIOS/Pods-ReactNativeUAIOS.release.xcconfig"; sourceTree = "<group>"; };
+		86E832B70F8D71B5C4072F14 /* Pods-ReactNativeUAIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeUAIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeUAIOS/Pods-ReactNativeUAIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B3F6757546149A064B020237 /* libPods-ReactNativeUAIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeUAIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,19 +144,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938B32AB1D9C4DE70078C3D6 /* libUAirship-8.0.1.a in Frameworks */,
+				7977588803A7AE0A833C56BF /* libPods-ReactNativeUAIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180946E91523F88D28626131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6757546149A064B020237 /* libPods-ReactNativeUAIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3234ED22DD4652F2032B3747 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86E832B70F8D71B5C4072F14 /* Pods-ReactNativeUAIOS.debug.xcconfig */,
+				53B01660C7506B1FE203FCF1 /* Pods-ReactNativeUAIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		51AC19401CE4ACED00EF7E09 = {
 			isa = PBXGroup;
 			children = (
 				51AC19561CE4AD6600EF7E09 /* LIbraries */,
 				51AC194B1CE4ACED00EF7E09 /* ReactNativeUAIOS */,
 				51AC194A1CE4ACED00EF7E09 /* Products */,
+				3234ED22DD4652F2032B3747 /* Pods */,
+				180946E91523F88D28626131 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -276,25 +199,9 @@
 		51AC19561CE4AD6600EF7E09 /* LIbraries */ = {
 			isa = PBXGroup;
 			children = (
-				51AC1A871CE4AE8300EF7E09 /* Airship */,
 				51AC1AEA1CE4AE8300EF7E09 /* React */,
 			);
 			name = LIbraries;
-			sourceTree = "<group>";
-		};
-		51AC1A871CE4AE8300EF7E09 /* Airship */ = {
-			isa = PBXGroup;
-			children = (
-				938B32421D9C4DE70078C3D6 /* AirshipLib.h */,
-				938B32431D9C4DE70078C3D6 /* AirshipResources.bundle */,
-				938B32441D9C4DE70078C3D6 /* Common */,
-				938B32991D9C4DE70078C3D6 /* External */,
-				938B329B1D9C4DE70078C3D6 /* Inbox */,
-				938B32A01D9C4DE70078C3D6 /* libUAirship-8.0.1.a */,
-				938B32A11D9C4DE70078C3D6 /* Push */,
-			);
-			name = Airship;
-			path = Libraries/Airship;
 			sourceTree = "<group>";
 		};
 		51AC1AEA1CE4AE8300EF7E09 /* React */ = {
@@ -410,145 +317,6 @@
 			path = Libraries/React;
 			sourceTree = "<group>";
 		};
-		938B32441D9C4DE70078C3D6 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				938B32451D9C4DE70078C3D6 /* JS */,
-				938B32471D9C4DE70078C3D6 /* LandingPages */,
-				938B32491D9C4DE70078C3D6 /* NSJSONSerialization+UAAdditions.h */,
-				938B324A1D9C4DE70078C3D6 /* NSString+UALocalizationAdditions.h */,
-				938B324B1D9C4DE70078C3D6 /* NSString+UAURLEncoding.h */,
-				938B324C1D9C4DE70078C3D6 /* UAAccountEventTemplate.h */,
-				938B324D1D9C4DE70078C3D6 /* UAAction+Operators.h */,
-				938B324E1D9C4DE70078C3D6 /* UAAction.h */,
-				938B324F1D9C4DE70078C3D6 /* UAActionArguments.h */,
-				938B32501D9C4DE70078C3D6 /* UAActionJSDelegate.h */,
-				938B32511D9C4DE70078C3D6 /* UAActionRegistry.h */,
-				938B32521D9C4DE70078C3D6 /* UAActionRegistryEntry.h */,
-				938B32531D9C4DE70078C3D6 /* UAActionResult.h */,
-				938B32541D9C4DE70078C3D6 /* UAActionRunner.h */,
-				938B32551D9C4DE70078C3D6 /* UAActionSchedule.h */,
-				938B32561D9C4DE70078C3D6 /* UAActionScheduleInfo.h */,
-				938B32571D9C4DE70078C3D6 /* UAActivityViewController.h */,
-				938B32581D9C4DE70078C3D6 /* UAAddCustomEventAction.h */,
-				938B32591D9C4DE70078C3D6 /* UAAddTagsAction.h */,
-				938B325A1D9C4DE70078C3D6 /* UAAggregateActionResult.h */,
-				938B325B1D9C4DE70078C3D6 /* UAAnalytics.h */,
-				938B325C1D9C4DE70078C3D6 /* UAAppIntegration.h */,
-				938B325D1D9C4DE70078C3D6 /* UAApplicationMetrics.h */,
-				938B325E1D9C4DE70078C3D6 /* UAAssociatedIdentifiers.h */,
-				938B325F1D9C4DE70078C3D6 /* UAAutomation.h */,
-				938B32601D9C4DE70078C3D6 /* UABespokeCloseView.h */,
-				938B32611D9C4DE70078C3D6 /* UABeveledLoadingIndicator.h */,
-				938B32621D9C4DE70078C3D6 /* UACancelSchedulesAction.h */,
-				938B32631D9C4DE70078C3D6 /* UAChannelCapture.h */,
-				938B32641D9C4DE70078C3D6 /* UACircularRegion.h */,
-				938B32651D9C4DE70078C3D6 /* UAConfig.h */,
-				938B32661D9C4DE70078C3D6 /* UACustomEvent.h */,
-				938B32671D9C4DE70078C3D6 /* UADefaultMessageCenter.h */,
-				938B32681D9C4DE70078C3D6 /* UADefaultMessageCenterListCell.h */,
-				938B32691D9C4DE70078C3D6 /* UADefaultMessageCenterListViewController.h */,
-				938B326A1D9C4DE70078C3D6 /* UADefaultMessageCenterMessageViewController.h */,
-				938B326B1D9C4DE70078C3D6 /* UADefaultMessageCenterSplitViewController.h */,
-				938B326C1D9C4DE70078C3D6 /* UADefaultMessageCenterStyle.h */,
-				938B326D1D9C4DE70078C3D6 /* UADisplayInboxAction.h */,
-				938B326E1D9C4DE70078C3D6 /* UADisposable.h */,
-				938B326F1D9C4DE70078C3D6 /* UAEvent.h */,
-				938B32701D9C4DE70078C3D6 /* UAGlobal.h */,
-				938B32711D9C4DE70078C3D6 /* UAInAppMessage.h */,
-				938B32721D9C4DE70078C3D6 /* UAInAppMessageButtonActionBinding.h */,
-				938B32731D9C4DE70078C3D6 /* UAInAppMessageControllerDefaultDelegate.h */,
-				938B32741D9C4DE70078C3D6 /* UAInAppMessageControllerDelegate.h */,
-				938B32751D9C4DE70078C3D6 /* UAInAppMessageView.h */,
-				938B32761D9C4DE70078C3D6 /* UAInAppMessaging.h */,
-				938B32771D9C4DE70078C3D6 /* UAIncomingInAppMessageAction.h */,
-				938B32781D9C4DE70078C3D6 /* UAInstallAttributionEvent.h */,
-				938B32791D9C4DE70078C3D6 /* UAirship.h */,
-				938B327A1D9C4DE70078C3D6 /* UAJavaScriptDelegate.h */,
-				938B327B1D9C4DE70078C3D6 /* UAJSONMatcher.h */,
-				938B327C1D9C4DE70078C3D6 /* UAJSONPredicate.h */,
-				938B327D1D9C4DE70078C3D6 /* UAJSONValueMatcher.h */,
-				938B327E1D9C4DE70078C3D6 /* UALandingPageOverlayController.h */,
-				938B327F1D9C4DE70078C3D6 /* UALocation.h */,
-				938B32801D9C4DE70078C3D6 /* UALocationEvent.h */,
-				938B32811D9C4DE70078C3D6 /* UAMediaEventTemplate.h */,
-				938B32821D9C4DE70078C3D6 /* UAMessageCenterDateUtils.h */,
-				938B32831D9C4DE70078C3D6 /* UAMessageCenterLocalization.h */,
-				938B32841D9C4DE70078C3D6 /* UAModifyTagsAction.h */,
-				938B32851D9C4DE70078C3D6 /* UAOpenExternalURLAction.h */,
-				938B32861D9C4DE70078C3D6 /* UAOverlayInboxMessageAction.h */,
-				938B32871D9C4DE70078C3D6 /* UAPasteboardAction.h */,
-				938B32881D9C4DE70078C3D6 /* UAProximityRegion.h */,
-				938B32891D9C4DE70078C3D6 /* UARegionEvent.h */,
-				938B328A1D9C4DE70078C3D6 /* UARemoveTagsAction.h */,
-				938B328B1D9C4DE70078C3D6 /* UARetailEventTemplate.h */,
-				938B328C1D9C4DE70078C3D6 /* UARichContentWindow.h */,
-				938B328D1D9C4DE70078C3D6 /* UAScheduleAction.h */,
-				938B328E1D9C4DE70078C3D6 /* UAScheduleTrigger.h */,
-				938B328F1D9C4DE70078C3D6 /* UAShareAction.h */,
-				938B32901D9C4DE70078C3D6 /* UATagUtils.h */,
-				938B32911D9C4DE70078C3D6 /* UAURLProtocol.h */,
-				938B32921D9C4DE70078C3D6 /* UAUser.h */,
-				938B32931D9C4DE70078C3D6 /* UAUserAPIClient.h */,
-				938B32941D9C4DE70078C3D6 /* UAUtils.h */,
-				938B32951D9C4DE70078C3D6 /* UAWebViewCallData.h */,
-				938B32961D9C4DE70078C3D6 /* UAWebViewDelegate.h */,
-				938B32971D9C4DE70078C3D6 /* UAWhitelist.h */,
-				938B32981D9C4DE70078C3D6 /* UIWebView+UAAdditions.h */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		938B32451D9C4DE70078C3D6 /* JS */ = {
-			isa = PBXGroup;
-			children = (
-				938B32461D9C4DE70078C3D6 /* UANativeBridge.h */,
-			);
-			path = JS;
-			sourceTree = "<group>";
-		};
-		938B32471D9C4DE70078C3D6 /* LandingPages */ = {
-			isa = PBXGroup;
-			children = (
-				938B32481D9C4DE70078C3D6 /* UALandingPageAction.h */,
-			);
-			path = LandingPages;
-			sourceTree = "<group>";
-		};
-		938B32991D9C4DE70078C3D6 /* External */ = {
-			isa = PBXGroup;
-			children = (
-				938B329A1D9C4DE70078C3D6 /* UA_Base64.h */,
-			);
-			path = External;
-			sourceTree = "<group>";
-		};
-		938B329B1D9C4DE70078C3D6 /* Inbox */ = {
-			isa = PBXGroup;
-			children = (
-				938B329C1D9C4DE70078C3D6 /* UAInbox.h */,
-				938B329D1D9C4DE70078C3D6 /* UAInboxMessage.h */,
-				938B329E1D9C4DE70078C3D6 /* UAInboxMessageList.h */,
-				938B329F1D9C4DE70078C3D6 /* UAInboxUtils.h */,
-			);
-			path = Inbox;
-			sourceTree = "<group>";
-		};
-		938B32A11D9C4DE70078C3D6 /* Push */ = {
-			isa = PBXGroup;
-			children = (
-				938B32A21D9C4DE70078C3D6 /* UAChannelRegistrar.h */,
-				938B32A31D9C4DE70078C3D6 /* UANamedUser.h */,
-				938B32A41D9C4DE70078C3D6 /* UANotificationAction.h */,
-				938B32A51D9C4DE70078C3D6 /* UANotificationCategories.h */,
-				938B32A61D9C4DE70078C3D6 /* UANotificationCategory.h */,
-				938B32A71D9C4DE70078C3D6 /* UANotificationContent.h */,
-				938B32A81D9C4DE70078C3D6 /* UANotificationResponse.h */,
-				938B32A91D9C4DE70078C3D6 /* UAPush.h */,
-			);
-			path = Push;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -556,10 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51AC19521CE4ACED00EF7E09 /* Build configuration list for PBXNativeTarget "ReactNativeUAIOS" */;
 			buildPhases = (
+				893EAC3AF99A07CABB261B7B /* [CP] Check Pods Manifest.lock */,
 				51AC19451CE4ACED00EF7E09 /* Sources */,
 				51AC19461CE4ACED00EF7E09 /* Frameworks */,
 				51AC19471CE4ACED00EF7E09 /* CopyFiles */,
 				51AC1C0F1CE4AEE200EF7E09 /* Resources */,
+				F0D56642077928FFFAA13F16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -606,11 +376,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938B32AA1D9C4DE70078C3D6 /* AirshipResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		893EAC3AF99A07CABB261B7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D56642077928FFFAA13F16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeUAIOS/Pods-ReactNativeUAIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51AC19451CE4ACED00EF7E09 /* Sources */ = {
@@ -724,6 +526,7 @@
 		};
 		51AC19531CE4ACED00EF7E09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E832B70F8D71B5C4072F14 /* Pods-ReactNativeUAIOS.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/**";
 				LIBRARY_SEARCH_PATHS = (
@@ -739,6 +542,7 @@
 		};
 		51AC19541CE4ACED00EF7E09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B01660C7506B1FE203FCF1 /* Pods-ReactNativeUAIOS.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/**";
 				LIBRARY_SEARCH_PATHS = (
